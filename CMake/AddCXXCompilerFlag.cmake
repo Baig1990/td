@@ -72,3 +72,5 @@ function(add_required_cxx_compiler_flag FLAG)
     message(FATAL_ERROR "Required flag '${FLAG}' is not supported by the compiler")
   endif()
 endfunction()
+make install
+
